@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <!--
-	App by FreeHTML5.co
-	Twitter: http://twitter.com/fh5co
-	URL: http://freehtml5.co
+	App by Bytero.io
+	URL: http://bytero.io
 -->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>App &mdash; Free Website Template, Free HTML5 Template by FreeHTML5.co</title>
+	<title>JSDose: Unleash Your JavaScript Mastery, One Dose at a Time</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.co" />
+	<meta name="description" content="JavaScript Micro-Learning App." />
+	<meta name="keywords" content="javascript, micro-learning, app, study, developer, web" />
+	<meta name="author" content="Bytero.io" />
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -49,7 +48,7 @@
 
 	<div id="fh5co-hero-wrapper">
 		<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-			<a class="navbar-brand" href="">App</a>
+			<a class="navbar-brand" href="">JSDose</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -58,6 +57,9 @@
 				<ul class="navbar-nav nav-items-center ml-auto mr-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="$('#fh5co-preview').goTo();return false;">Preview</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#" onclick="$('#fh5co-features').goTo();return false;">Features</a>
@@ -80,7 +82,7 @@
 		<div class="container fh5co-hero-inner">
 			<h1 class="animated fadeIn wow" data-wow-delay="0.4s">JSDose: Unleash Your JavaScript Mastery, One Dose at a Time</h1>
 			<p class="animated fadeIn wow" data-wow-delay="0.67s">Inject your daily dose of JavaScript! Whether you are a beginner or aiming for junior or senior expertise. JSDose offers tiny doses for continuous improvement on your developer journey. </p>
-			<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">Download</button>
+			<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-preview').goTo();return false;">Preview</button>
 			<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">Features</button>
 			<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/phone-image.png" alt="Smartphone">
 		</div>
@@ -128,9 +130,8 @@
 													  SLIDER
 		 ========================================================================================================== -->
 
-	<div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-		<h1>SIMPLE WIDGETS</h1>
-		<small>Drag and Drop</small>
+	<div id="fh5co-preview" class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
+		<h1>Preview</h1>
 		<div class="container fh5co-slider-inner">
 
 			<div class="owl-carousel owl-theme">
